@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-repo="kingsylin/svn-java7777777"
+repo="kingsylin/svn-java7"
 version="1.1-alpine"
 docker build -t ${repo} -t ${repo}:${version} .
 docker push ${repo}
